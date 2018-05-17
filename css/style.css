@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.navList li {
+  float: left;
+}
+
+.navList li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navList li a:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.alcoList {
+  background-image: url("../images/tloListy.jpg");
+  background-size: cover;
+  padding-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  width: 30%;
+  height: 90vh;
+  overflow: scroll;
+}
+.alcoList ul li {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 5px;
+  list-style-type: none;
+  border-radius: 15%;
+  padding: 5px;
+}
+.alcoList ul li:hover {
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.alcoList ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.width {
+  width: 100%;
+  height: auto;
+}
+.floatLeft {
+  float: left;
+}
+.imageMargin {
+  margin: 10px;
+}
+.spanCoctailList {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  opacity: 0;
+}
+.spanCoctailList:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.classPadding {
+  padding-top: 100px;
+}
+.classFinaleDrink {
+  display: inline-block;
+  max-width: 250px;
+  min-height: 300px;
+  padding-left: 30px;
+}
+
+.drinkImage {
+  background-image: url("../images/drinking.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.gradient {
+  background: rgb(243, 226, 199); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 25%,
+    rgba(182, 141, 76, 1) 74%,
+    rgba(233, 212, 179, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 25%,
+    rgba(182, 141, 76, 1) 74%,
+    rgba(233, 212, 179, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 1) 25%,
+    rgba(182, 141, 76, 1) 74%,
+    rgba(233, 212, 179, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+}
+.colorWhite {
+  color: white;
+}
+.fontRighteous {
+  font-family: "Righteous", cursive;
+}
+.fontRopa {
+  font-family: "Ropa Sans", sans-serif;
+}
+.fontWork {
+  font-family: "Work Sans", sans-serif;
+}
+.fontAlegreya {
+  font-family: "Alegreya Sans", sans-serif;
+}
+.drinkList {
+  background-image: url("../images/piwo.jpg");
+  background-size: contain;
+}
